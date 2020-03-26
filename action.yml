@@ -1,0 +1,5 @@
+name: 'githubActions-iobroker-commitOrPullRequest'
+description: 'Github Actions: Process ioBroker adapter on commit or pull request'
+runs:
+  using: 'node12'
+  main: 'commitOrPullRequest.js'
